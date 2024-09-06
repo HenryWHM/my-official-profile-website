@@ -9,7 +9,6 @@ const Introduction = () => {
         return res.json();
       })
       .then(data => {
-        console.log(data);
         setIntro(data);
       })
       .catch(error => console.error('Error fetching data:', error));

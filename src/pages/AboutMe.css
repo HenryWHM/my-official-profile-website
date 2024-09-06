@@ -1,0 +1,42 @@
+body {
+    background-image: url('C:\Users\Han Ming (Henry)\Documents\my-official-profile-website\src\images\le-professor-at-work.png');
+    background-size: cover; /* Scale the image to cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    margin: 0; /* Remove default body margin */
+    padding: 0; /* Remove default body padding */
+}
+
+.about-me-box {
+    display: flex;
+    align-items: center;
+    background-color: #000;  /* Black background */
+    color: red;  /* White text color */
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;  /* Center the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  /* Add a slight shadow for depth */
+  }
+
+  /* Image styling */
+  .about-me-image {
+    max-width: 150px;  /* Set the image width */
+    height: auto;  /* Maintain aspect ratio */
+    border-radius: 50%;  /* Optional: Make the image circular */
+    margin-right: 20px;  /* Space between image and text */
+  }
+
+  /* Text styling */
+  .about-me-text {
+    flex-grow: 1;  /* Let the text take up the remaining space */
+  }
+
+  .about-me-text h2 {
+    margin-bottom: 10px;
+  }
+
+  .about-me-text p {
+    font-size: 16px;
+    line-height: 1.5;
+  }

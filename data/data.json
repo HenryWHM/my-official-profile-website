@@ -3,5 +3,13 @@
         {
             "context": "A lot has changed since I have joined this trainee program back in 2023 Term 3. And the only thing I can say is: 1) My thinking has changed, 2) My hobbies have also changed, 3) My MBTI has also changed as well and last but not least, this profile website has changed from being just HTML + CSS to the React Framework."
         }
-    ]
+    ],
+    "profile": {
+        "aboutMe": "Hi, I'm a third-year Computer Science student with a passion for coding, writing novels and playing video games. I love exploring new technologies and developing projects that challenge my creativity and technical skills.",
+        "fullname": "Han Ming Wong",
+        "age": 23,
+        "degree": "BSc of Computer Science 💻🖥️🖱️",
+        "mbti": "ISTJ-T 👴 (yes, it changed in 1 year)"
+
+    }
 }

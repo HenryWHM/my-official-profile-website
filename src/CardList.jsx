@@ -12,7 +12,7 @@ const Card = ({imgSrc, title, description, Alt, navigateTo}) => {
     };
 
     return (
-        <div className="card">
+        <div className="card" onClick={handleClick} style={{ cursor: 'pointer' }}>
             <img className="card-image" src={imgSrc} alt={Alt}></img>
             <h2 className="card-title">{title}</h2>
             <p>{description}</p>
