@@ -1,20 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 
+.app-container {
+  background-color:black;
+  opacity: 1;
+}
 /* base styles */
 * {
   margin: 0;
   font-family: "Quicksand";
   color:red;
-  background-image: url(/src/images/planque-professeur.webp);
 }
+
 .navbar {
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 100%;
   margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
 }
+
 .navbar h1 {
   color:red;
 }
@@ -30,7 +34,8 @@
   color:red;
 }
 .content {
-  max-width: 600px;
+  background-color: black;
+  max-width: 100%;
   margin: 40px auto;
   padding: 20px;
 }
