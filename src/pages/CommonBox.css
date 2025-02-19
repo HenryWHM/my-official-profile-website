@@ -1,5 +1,5 @@
 body {
-    background-image: url('C:\Users\Han Ming (Henry)\Documents\my-official-profile-website\src\homepage_images\galaxy.jpg');
+    background-image: url('../../public/homepage_images/galaxy.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
