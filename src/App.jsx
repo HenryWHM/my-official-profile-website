@@ -1,5 +1,5 @@
 import Preloader from './component/Preloader';
-import { BrowserRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes, BrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import AboutMe from './pages/AboutMe';
 import Hobbies from './pages/Hobbies';
