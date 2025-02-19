@@ -1,9 +1,9 @@
 const Navbar = () => {
     return (
       <nav className="navbar">
-        <h1>Welcome to the Professor's Den</h1>
+        <h1>Welcome to the Real World</h1>
         <div className="links">
-          <a href="/create" style={{
+          <a href="/contacts" style={{
             color: 'red',
             borderRadius: '8px'
           }}><bold>Contacts</bold></a>

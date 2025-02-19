@@ -1,0 +1,32 @@
+{
+    "project_cards": [
+        {
+            "title": "My Personal Projects",
+            "context": "Below are the personal projects that I have done.",
+            "pic": "/images/guy-coding.jpg"
+        },
+        {
+            "title": "UNSW ASEAN Conference 2020 website - Archived 'Internal Partners' section 2020 (Aug 2022 - Oct 2022)",
+            "context": "I was tasked by my IT director to archive the ‘Internal Partners’ section of the UNSW ASEAN Conference 2020 website. I archived it using mainly HTML + CSS and a little bit of Javascript. Click on the card to view the archive :).",
+            "pic": "/images/ASEAN.png",
+            "link": "https://henrywhm2001.github.io/UAC-2020---2nd-half-of-Our-Partners-2020-archieved/Internal%20partners%20section%20archived.html"
+        },
+        {
+            "title": "UNSW Social Soccer Society Social Media Post UI (July 2024 - Aug 2024)",
+            "context": "To make posting of events for Social Soccer society more fast and efficient, I was tasked by the IT director to create a UI that can help post Social Soccer Society Events to Discord, Facebook and Instagram without having to manually post on each of the social medias via hand. This post UI I created can automatically help post events on different social medias just by creating the post just via the UI only. Pretty efficient right? :)",
+            "pic": "/images/Socsocsocpostui.png"
+        },
+        {
+            "title": "PENFRIENDS - Made by me, Jono, Damon and Brendan :) (Dec 2024 - Jan 2025)",
+            "context": "My group of friends and I decided that during the summer in 2024, we wanted to have a personal project for ourselves and also showcase to the entire world soon. And so we came up with a web application named 'PENFRIENDS' where you are able to send letters and also reply letters via the web application. It's a penpals app essentially ✉️📝📨📫📪. Click on the card to view our personal project :)",
+            "pic": "/images/PENFRIENDS.png",
+            "link": "https://penfriends.pages.dev/"
+        },
+        {
+            "title": "My Original Profile Website v1.0 (Sept 2023)",
+            "context": "And last but not least, my original profile website which I created back in September 2023 for the 23T3 Trainee Program :) My original profile website was made using mainly HTML and CSS. But right now, this website here is made using the React framework instead. And so, I would say it has been a far cry since that time till now and I am proud of my improvement being able to use the React framework right now :)",
+            "pic": "/images/original-profile-website.png",
+            "link": "https://henrywhm.github.io/My-Profile-Website-Version-1.0-/profile_website_v1.0.html"
+        }
+    ]
+}

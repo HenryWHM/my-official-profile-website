@@ -8,7 +8,7 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color:red;
+  color: white;
 }
 
 .navbar {
@@ -20,7 +20,7 @@
 }
 
 .navbar h1 {
-  color:red;
+  color: white;
 }
 .navbar .links {
   margin-left: auto;
@@ -31,7 +31,7 @@
   padding: 6px;
 }
 .navbar a:hover {
-  color:red;
+  color:#007bff;
 }
 .content {
   background-color: black;
@@ -51,6 +51,6 @@
 }
 .blog-preview h2 {
   font-size: 20px;
-  color:red;
+  color:#007bff;
   margin-bottom: 8px;
 }

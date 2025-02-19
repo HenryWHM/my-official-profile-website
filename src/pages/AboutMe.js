@@ -1,33 +1,38 @@
 import React from 'react';
-import profilePic from '../images/my-profile-pic.png';
-import './AboutMe.css';
+import './CommonBox.css';
 import { useState, useEffect } from 'react';
+import profileData from '../data/profile.json';
 
 const AboutMe = () => {
     const [profile, setProfile] = useState(null);
+    const [isHovered, setIsHovered] = useState(false);
+    const handleMouseEnter = () => {
+        setIsHovered(true);
+    }
+
+    const handleMouseLeave = () => {
+        setIsHovered(false);
+    }
 
     useEffect(() => {
-        fetch('http://localhost:8001/profile')
-          .then(res => {
-            return res.json();
-          })
-          .then(data => {
-            setProfile(data);
-          })
-          .catch(error => console.error('Error fetching data:', error));
-      }, []);
+      setProfile(profileData.profile);
+    }, []);
+
+    if (!profile) {
+      return (<p>Loading...</p>)
+    }
 
   return (
-    <div className="about-me-box">
-      <img className="about-me-image" src={profilePic} alt="Profile" />
-      <div className="about-me-text">
-        <h2>About Me</h2>
-        <p>{profile ? <p>{profile.aboutMe}</p> : <p>Loading...</p>} </p>
+    <div className="common-box" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+      <img className="common-image" src={isHovered ? profile.profileGif : profile.profilePic} alt="Profile" />
+      <div className="common-text">
+        <h2>{profile.title}</h2>
+        <p>{profile.context}</p>
         <br />
-        <p><b>Name:</b> {profile ? <p>{profile.fullname}</p> : <p>Loading...</p>} </p>
-        <p><b>Age:</b> {profile ? <p>{profile.age}</p> : <p>Loading...</p>} </p>
-        <p><b>Degree:</b> {profile ? <p>{profile.degree}</p> : <p>Loading...</p>} </p>
-        <p><b>MBTI:</b> {profile ? <p>{profile.mbti}</p> : <p>Loading...</p>} </p>
+        <p><b>Name:</b> {profile.fullname}</p>
+        <p><b>Age:</b> {profile.age}</p>
+        <p><b>Degree:</b> {profile.degree}</p>
+        <p><b>MBTI:</b> {profile.mbti}</p>
       </div>
     </div>
   );

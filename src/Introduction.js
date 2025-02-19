@@ -1,22 +1,21 @@
 import { useState, useEffect } from 'react';
+import introData from './data/intro.json';
 
 const Introduction = () => {
   const [intro, setIntro] = useState(null);
 
   useEffect(() => {
-    fetch('http://localhost:8001/introduction')
-      .then(res => {
-        return res.json();
-      })
-      .then(data => {
-        setIntro(data);
-      })
-      .catch(error => console.error('Error fetching data:', error));
+    setIntro(introData.introduction)
   }, []);
+
+  if (!intro) {
+    return(<p>Loading...</p>)
+  }
+
     return (
       <div className="introduction">
         <h2>Introduction</h2>
-        {intro ? <p>{intro[0].context}</p> : <p>Loading...</p>}
+        <p>{intro}</p>
       </div>
     );
   }
