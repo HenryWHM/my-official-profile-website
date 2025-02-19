@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-official-profile-website/static/css/main.d93307a5.css",
+    "main.js": "/my-official-profile-website/static/js/main.6edd91ec.js",
+    "static/js/453.81326431.chunk.js": "/my-official-profile-website/static/js/453.81326431.chunk.js",
+    "static/media/galaxy.jpg": "/my-official-profile-website/static/media/galaxy.8d641f86a0d971e37feb.jpg",
+    "static/media/le-professor-at-work.png": "/my-official-profile-website/static/media/le-professor-at-work.f569b2128f91266e3b91.png",
+    "static/media/instagram.webp": "/my-official-profile-website/static/media/instagram.fe5879a99f4241027b40.webp",
+    "static/media/my-profile-pic.png": "/my-official-profile-website/static/media/my-profile-pic.7e81df40cdba2ca9c76b.png",
+    "static/media/images (1).jpg": "/my-official-profile-website/static/media/images (1).5e7dc19c079ca0ead7a1.jpg",
+    "static/media/istockphoto-1353633402-612x612.jpg": "/my-official-profile-website/static/media/istockphoto-1353633402-612x612.7fdbd4bd7ffc022cde97.jpg",
+    "static/media/github.webp": "/my-official-profile-website/static/media/github.010a2fd15fdc36a3ffbf.webp",
+    "static/media/discord.jpg": "/my-official-profile-website/static/media/discord.b19e94cbe01d5446726f.jpg",
+    "index.html": "/my-official-profile-website/index.html",
+    "main.d93307a5.css.map": "/my-official-profile-website/static/css/main.d93307a5.css.map",
+    "main.6edd91ec.js.map": "/my-official-profile-website/static/js/main.6edd91ec.js.map",
+    "453.81326431.chunk.js.map": "/my-official-profile-website/static/js/453.81326431.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d93307a5.css",
+    "static/js/main.6edd91ec.js"
+  ]
+}
